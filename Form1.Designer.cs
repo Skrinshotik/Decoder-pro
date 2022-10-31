@@ -34,7 +34,7 @@
             this.Unsym_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // DecoderPro_label
+            // encode_button
             // 
             this.DecoderPro_label.AutoSize = true;
             this.DecoderPro_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
