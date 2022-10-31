@@ -33,7 +33,6 @@
             this.public_key_1_text = new System.Windows.Forms.TextBox();
             this.public_key_2_text = new System.Windows.Forms.TextBox();
             this.private_key_text = new System.Windows.Forms.TextBox();
-            this.decode_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // encode_button
@@ -76,22 +75,11 @@
             this.private_key_text.Size = new System.Drawing.Size(100, 23);
             this.private_key_text.TabIndex = 4;
             // 
-            // decode_button
-            // 
-            this.decode_button.Location = new System.Drawing.Point(165, 228);
-            this.decode_button.Name = "decode_button";
-            this.decode_button.Size = new System.Drawing.Size(97, 47);
-            this.decode_button.TabIndex = 5;
-            this.decode_button.Text = "Decode";
-            this.decode_button.UseVisualStyleBackColor = true;
-            this.decode_button.Click += new System.EventHandler(this.decode_button_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.decode_button);
             this.Controls.Add(this.private_key_text);
             this.Controls.Add(this.public_key_2_text);
             this.Controls.Add(this.public_key_1_text);
@@ -111,6 +99,5 @@
         private TextBox public_key_1_text;
         private TextBox public_key_2_text;
         private TextBox private_key_text;
-        private Button decode_button;
     }
 }
