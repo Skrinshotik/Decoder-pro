@@ -12,7 +12,6 @@ namespace Decoder_pro
 
         private void decrypt_button_Click(object sender, EventArgs e)
         {
-
         }
 
         private void encrypt_button_Click(object sender, EventArgs e)
