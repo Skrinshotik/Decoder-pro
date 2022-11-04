@@ -1,4 +1,10 @@
-﻿namespace Decoder_pro
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Decoder_pro
 {
     internal class DES
     {
@@ -17,7 +23,7 @@
         public_key_2_text.Text = des.decrypt(private_key_text.Text, public_key_1_text.Text);
         }*/
 
-        private const int sizeOfBlock = 128; //в DES размер блока 64 бит, но поскольку в unicode символ в два раза длинее, то увеличим блок тоже в два раза
+            private const int sizeOfBlock = 128; //в DES размер блока 64 бит, но поскольку в unicode символ в два раза длинее, то увеличим блок тоже в два раза
             private const int sizeOfChar = 16; //размер одного символа (in Unicode 16 bit)
 
             private const int shiftKey = 2; //сдвиг ключа 
