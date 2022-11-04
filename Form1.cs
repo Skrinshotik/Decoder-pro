@@ -1,3 +1,5 @@
+using Simias.Encryption;
+
 namespace Decoder_pro
 {
     public partial class Form1 : Form
