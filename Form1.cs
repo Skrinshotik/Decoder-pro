@@ -1,3 +1,5 @@
+using Simias.Encryption;
+
 namespace Decoder_pro
 {
     public partial class Form1 : Form
@@ -9,12 +11,15 @@ namespace Decoder_pro
 
         private void encode_button_Click(object sender, EventArgs e)
         {
-
         }
 
         private void code_selector_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void decode_button_Click(object sender, EventArgs e)
+        {
         }
     }
 }
