@@ -151,6 +151,16 @@
             this.cifer_name.TabIndex = 15;
             this.cifer_name.Text = "Название шифра";
             // 
+            // decode_button
+            // 
+            this.decode_button.Location = new System.Drawing.Point(165, 228);
+            this.decode_button.Name = "decode_button";
+            this.decode_button.Size = new System.Drawing.Size(97, 47);
+            this.decode_button.TabIndex = 5;
+            this.decode_button.Text = "Decode";
+            this.decode_button.UseVisualStyleBackColor = true;
+            this.decode_button.Click += new System.EventHandler(this.decode_button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
