@@ -1,4 +1,5 @@
 using Simias.Encryption;
+using System.Text;
 
 namespace Decoder_pro
 {
