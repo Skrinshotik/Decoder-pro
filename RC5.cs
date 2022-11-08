@@ -4,25 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-/*
- * Это декодирование!!!
-            string text = public_key_1_text.Text;
-            byte[] bytes = Encoding.ASCII.GetBytes(text);
-            RC5 rc = new RC5(bytes);
-            text = public_key_2_text.Text;
-            text = rc.Decrypt(text);
-            private_key_text.Text = text;
-
-  *Это кодирование!!!
-            string text = public_key_1_text.Text;
-            byte[] bytes = Encoding.ASCII.GetBytes(text);
-            RC5 rc = new RC5(bytes);
-            text = public_key_2_text.Text;
-            text = rc.Encrypt(text);
-            private_key_text.Text = text;
-*/
-
 namespace Decoder_pro
 {
     public class RC5
