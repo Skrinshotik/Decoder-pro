@@ -28,75 +28,147 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.encode_button = new System.Windows.Forms.Button();
-            this.code_selector = new System.Windows.Forms.ComboBox();
-            this.public_key_1_text = new System.Windows.Forms.TextBox();
-            this.public_key_2_text = new System.Windows.Forms.TextBox();
-            this.private_key_text = new System.Windows.Forms.TextBox();
-            this.decode_button = new System.Windows.Forms.Button();
+            this.DecoderPro_label = new System.Windows.Forms.Label();
+            this.key_label = new System.Windows.Forms.Label();
+            this.message_label = new System.Windows.Forms.Label();
+            this.encrypted_label = new System.Windows.Forms.Label();
+            this.key_text = new System.Windows.Forms.TextBox();
+            this.message_text = new System.Windows.Forms.TextBox();
+            this.encrypted_text = new System.Windows.Forms.RichTextBox();
+            this.decrypt_button = new System.Windows.Forms.Button();
+            this.encrypt_button = new System.Windows.Forms.Button();
+            this.cifer_name = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // encode_button
+            // DecoderPro_label
             // 
-            this.encode_button.Location = new System.Drawing.Point(46, 228);
-            this.encode_button.Name = "encode_button";
-            this.encode_button.Size = new System.Drawing.Size(97, 47);
-            this.encode_button.TabIndex = 0;
-            this.encode_button.Text = "Encode";
-            this.encode_button.UseVisualStyleBackColor = true;
-            this.encode_button.Click += new System.EventHandler(this.encode_button_Click);
+            this.DecoderPro_label.AutoSize = true;
+            this.DecoderPro_label.Font = new System.Drawing.Font("Etna", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DecoderPro_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.DecoderPro_label.Location = new System.Drawing.Point(12, 4);
+            this.DecoderPro_label.Name = "DecoderPro_label";
+            this.DecoderPro_label.Size = new System.Drawing.Size(207, 37);
+            this.DecoderPro_label.TabIndex = 6;
+            this.DecoderPro_label.Text = "DecoderPro";
+            this.DecoderPro_label.Click += new System.EventHandler(this.DecoderPro_label_Click);
             // 
-            // code_selector
+            // key_label
             // 
-            this.code_selector.FormattingEnabled = true;
-            this.code_selector.Location = new System.Drawing.Point(69, 71);
-            this.code_selector.Name = "code_selector";
-            this.code_selector.Size = new System.Drawing.Size(121, 23);
-            this.code_selector.TabIndex = 1;
-            this.code_selector.SelectedIndexChanged += new System.EventHandler(this.code_selector_SelectedIndexChanged);
+            this.key_label.AutoSize = true;
+            this.key_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.key_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.key_label.Location = new System.Drawing.Point(20, 219);
+            this.key_label.Name = "key_label";
+            this.key_label.Size = new System.Drawing.Size(106, 45);
+            this.key_label.TabIndex = 7;
+            this.key_label.Text = "Ключ";
             // 
-            // public_key_1_text
+            // message_label
             // 
-            this.public_key_1_text.Location = new System.Drawing.Point(46, 122);
-            this.public_key_1_text.Name = "public_key_1_text";
-            this.public_key_1_text.Size = new System.Drawing.Size(100, 23);
-            this.public_key_1_text.TabIndex = 2;
+            this.message_label.AutoSize = true;
+            this.message_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.message_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.message_label.Location = new System.Drawing.Point(20, 311);
+            this.message_label.Name = "message_label";
+            this.message_label.Size = new System.Drawing.Size(208, 45);
+            this.message_label.TabIndex = 8;
+            this.message_label.Text = "Сообщение";
             // 
-            // public_key_2_text
+            // encrypted_label
             // 
-            this.public_key_2_text.Location = new System.Drawing.Point(46, 151);
-            this.public_key_2_text.Name = "public_key_2_text";
-            this.public_key_2_text.Size = new System.Drawing.Size(100, 23);
-            this.public_key_2_text.TabIndex = 3;
+            this.encrypted_label.AutoSize = true;
+            this.encrypted_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.encrypted_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.encrypted_label.Location = new System.Drawing.Point(20, 396);
+            this.encrypted_label.Name = "encrypted_label";
+            this.encrypted_label.Size = new System.Drawing.Size(313, 45);
+            this.encrypted_label.TabIndex = 9;
+            this.encrypted_label.Text = "Шифр-сообщение";
             // 
-            // private_key_text
+            // key_text
             // 
-            this.private_key_text.Location = new System.Drawing.Point(46, 181);
-            this.private_key_text.Name = "private_key_text";
-            this.private_key_text.Size = new System.Drawing.Size(100, 23);
-            this.private_key_text.TabIndex = 4;
+            this.key_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.key_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.key_text.Location = new System.Drawing.Point(234, 219);
+            this.key_text.Name = "key_text";
+            this.key_text.Size = new System.Drawing.Size(317, 50);
+            this.key_text.TabIndex = 10;
             // 
-            // decode_button
+            // message_text
             // 
-            this.decode_button.Location = new System.Drawing.Point(165, 228);
-            this.decode_button.Name = "decode_button";
-            this.decode_button.Size = new System.Drawing.Size(97, 47);
-            this.decode_button.TabIndex = 5;
-            this.decode_button.Text = "Decode";
-            this.decode_button.UseVisualStyleBackColor = true;
-            this.decode_button.Click += new System.EventHandler(this.decode_button_Click);
+            this.message_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.message_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.message_text.Location = new System.Drawing.Point(234, 311);
+            this.message_text.Name = "message_text";
+            this.message_text.Size = new System.Drawing.Size(317, 50);
+            this.message_text.TabIndex = 11;
+            // 
+            // encrypted_text
+            // 
+            this.encrypted_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.encrypted_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.encrypted_text.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.encrypted_text.Location = new System.Drawing.Point(29, 456);
+            this.encrypted_text.Name = "encrypted_text";
+            this.encrypted_text.Size = new System.Drawing.Size(522, 195);
+            this.encrypted_text.TabIndex = 12;
+            this.encrypted_text.Text = "";
+            // 
+            // decrypt_button
+            // 
+            this.decrypt_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.decrypt_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.decrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.decrypt_button.Location = new System.Drawing.Point(591, 456);
+            this.decrypt_button.Name = "decrypt_button";
+            this.decrypt_button.Size = new System.Drawing.Size(179, 78);
+            this.decrypt_button.TabIndex = 13;
+            this.decrypt_button.Text = "Расшифровать!";
+            this.decrypt_button.UseVisualStyleBackColor = false;
+            this.decrypt_button.Click += new System.EventHandler(this.decrypt_button_Click);
+            // 
+            // encrypt_button
+            // 
+            this.encrypt_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.encrypt_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.encrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.encrypt_button.Location = new System.Drawing.Point(591, 573);
+            this.encrypt_button.Name = "encrypt_button";
+            this.encrypt_button.Size = new System.Drawing.Size(179, 78);
+            this.encrypt_button.TabIndex = 14;
+            this.encrypt_button.Text = "Зашифровать!";
+            this.encrypt_button.UseVisualStyleBackColor = false;
+            this.encrypt_button.Click += new System.EventHandler(this.encrypt_button_Click);
+            // 
+            // cifer_name
+            // 
+            this.cifer_name.AutoSize = true;
+            this.cifer_name.Font = new System.Drawing.Font("Calibri", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.cifer_name.Location = new System.Drawing.Point(339, 9);
+            this.cifer_name.Name = "cifer_name";
+            this.cifer_name.Size = new System.Drawing.Size(594, 91);
+            this.cifer_name.TabIndex = 15;
+            this.cifer_name.Text = "Название шифра";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.decode_button);
-            this.Controls.Add(this.private_key_text);
-            this.Controls.Add(this.public_key_2_text);
-            this.Controls.Add(this.public_key_1_text);
-            this.Controls.Add(this.code_selector);
-            this.Controls.Add(this.encode_button);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.cifer_name);
+            this.Controls.Add(this.encrypt_button);
+            this.Controls.Add(this.decrypt_button);
+            this.Controls.Add(this.encrypted_text);
+            this.Controls.Add(this.message_text);
+            this.Controls.Add(this.key_text);
+            this.Controls.Add(this.encrypted_label);
+            this.Controls.Add(this.message_label);
+            this.Controls.Add(this.key_label);
+            this.Controls.Add(this.DecoderPro_label);
+            this.MaximumSize = new System.Drawing.Size(1280, 720);
+            this.MinimumSize = new System.Drawing.Size(1280, 720);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -106,11 +178,15 @@
 
         #endregion
 
-        private Button encode_button;
-        private ComboBox code_selector;
-        private TextBox public_key_1_text;
-        private TextBox public_key_2_text;
-        private TextBox private_key_text;
-        private Button decode_button;
+        private Label DecoderPro_label;
+        private Label key_label;
+        private Label message_label;
+        private Label encrypted_label;
+        private TextBox key_text;
+        private TextBox message_text;
+        private RichTextBox encrypted_text;
+        private Button decrypt_button;
+        private Button encrypt_button;
+        private Label cifer_name;
     }
 }
