@@ -11,12 +11,15 @@ namespace Decoder_pro
 
         private void decrypt_button_Click(object sender, EventArgs e)
         {
-
         }
 
         private void encrypt_button_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void decode_button_Click(object sender, EventArgs e)
+        {
         }
 
         private void DecoderPro_label_Click(object sender, EventArgs e)

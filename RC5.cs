@@ -272,7 +272,7 @@ namespace Decoder_pro
             byte[] input = new byte[16];
             byte[] output = new byte[16];
             for (int i = 0; i < data.Length / 16; i++)
-            {
+    {
                 Array.Copy(data, i * 16, input, 0, 16);
                 Decipher(input, output);
                 Array.Copy(output, 0, result, i * 16, 16);
