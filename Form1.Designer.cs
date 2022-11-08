@@ -82,7 +82,7 @@
             this.Unsym_button.Text = "Асимметичные";
             this.Unsym_button.UseVisualStyleBackColor = false;
             // 
-            // decode_button
+            // cifer_name
             // 
             // Form1
             // 
