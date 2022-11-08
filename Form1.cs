@@ -9,17 +9,21 @@ namespace Decoder_pro
             InitializeComponent();
         }
 
-        private void encode_button_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void code_selector_SelectedIndexChanged(object sender, EventArgs e)
+        private void decrypt_button_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void decode_button_Click(object sender, EventArgs e)
+        private void encrypt_button_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void DecoderPro_label_Click(object sender, EventArgs e)
+        {
+            /*
+             * рср опнохяюрэ бнгбпюр мю цкюбмсч тнплс!!!
+             */
         }
     }
 }
