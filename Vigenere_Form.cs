@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Decoder_pro
 {
-    public partial class FormVigenere : Form
+    public partial class Vigenere_Form : Form
     {
-        public FormVigenere()
+        public Vigenere_Form()
         {
             
             InitializeComponent();

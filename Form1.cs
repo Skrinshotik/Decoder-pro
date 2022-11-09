@@ -12,16 +12,6 @@ namespace Decoder_pro
             InitializeComponent();
         }
 
-        private void decrypt_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void encrypt_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void DecoderPro_label_Click(object sender, EventArgs e)
         {
             /*
@@ -29,18 +19,11 @@ namespace Decoder_pro
              */
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void sym_button_Click(object sender, EventArgs e)
         {
             Visible = false;
-            FormVigenere frm = new FormVigenere();
-            frm.Visible = true;
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Visible = false;
-            XOR_Form frm = new XOR_Form();
-            frm.Visible = true;
+            Sym_Choose_Form sym_Choose_Form = new Sym_Choose_Form();
+            sym_Choose_Form.Visible = true;
         }
     }
 }
