@@ -49,9 +49,9 @@
             this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.cifer_name.Location = new System.Drawing.Point(355, 29);
             this.cifer_name.Name = "cifer_name";
-            this.cifer_name.Size = new System.Drawing.Size(594, 91);
+            this.cifer_name.Size = new System.Drawing.Size(588, 91);
             this.cifer_name.TabIndex = 25;
-            this.cifer_name.Text = "Название шифра";
+            this.cifer_name.Text = "Шифр Виженера";
             // 
             // encrypt_button
             // 
@@ -83,7 +83,7 @@
             // 
             this.encrypted_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.encrypted_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.encrypted_text.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.encrypted_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.encrypted_text.Location = new System.Drawing.Point(45, 476);
             this.encrypted_text.Name = "encrypted_text";
             this.encrypted_text.Size = new System.Drawing.Size(522, 195);
@@ -94,6 +94,7 @@
             // 
             this.message_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.message_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.message_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.message_text.Location = new System.Drawing.Point(250, 331);
             this.message_text.Name = "message_text";
             this.message_text.Size = new System.Drawing.Size(317, 50);
@@ -103,6 +104,7 @@
             // 
             this.key_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.key_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.key_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.key_text.Location = new System.Drawing.Point(250, 239);
             this.key_text.Name = "key_text";
             this.key_text.Size = new System.Drawing.Size(317, 50);
@@ -175,7 +177,7 @@
             this.radioButton2.Text = "Кириллица";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // Form3
+            // Vigenere_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -193,7 +195,7 @@
             this.Controls.Add(this.message_label);
             this.Controls.Add(this.key_label);
             this.Controls.Add(this.DecoderPro_label);
-            this.Name = "Form3";
+            this.Name = "Vigenere_Form";
             this.Text = "Form3";
             this.ResumeLayout(false);
             this.PerformLayout();

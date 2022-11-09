@@ -63,62 +63,74 @@
             // 
             // Vigenere_button
             // 
+            this.Vigenere_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Vigenere_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Vigenere_button.Location = new System.Drawing.Point(121, 227);
             this.Vigenere_button.Name = "Vigenere_button";
             this.Vigenere_button.Size = new System.Drawing.Size(152, 87);
             this.Vigenere_button.TabIndex = 16;
             this.Vigenere_button.Text = "виженер";
-            this.Vigenere_button.UseVisualStyleBackColor = true;
+            this.Vigenere_button.UseVisualStyleBackColor = false;
             this.Vigenere_button.Click += new System.EventHandler(this.Vigenere_button_Click);
             // 
             // XOR_button
             // 
+            this.XOR_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.XOR_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.XOR_button.Location = new System.Drawing.Point(523, 227);
             this.XOR_button.Name = "XOR_button";
             this.XOR_button.Size = new System.Drawing.Size(152, 87);
             this.XOR_button.TabIndex = 17;
             this.XOR_button.Text = "XOR";
-            this.XOR_button.UseVisualStyleBackColor = true;
+            this.XOR_button.UseVisualStyleBackColor = false;
             this.XOR_button.Click += new System.EventHandler(this.XOR_button_Click);
             // 
             // DES_button
             // 
+            this.DES_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.DES_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.DES_button.Location = new System.Drawing.Point(909, 227);
             this.DES_button.Name = "DES_button";
             this.DES_button.Size = new System.Drawing.Size(152, 87);
             this.DES_button.TabIndex = 18;
             this.DES_button.Text = "DES";
-            this.DES_button.UseVisualStyleBackColor = true;
+            this.DES_button.UseVisualStyleBackColor = false;
             this.DES_button.Click += new System.EventHandler(this.DES_button_Click);
             // 
             // RC5_button
             // 
+            this.RC5_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.RC5_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.RC5_button.Location = new System.Drawing.Point(121, 378);
             this.RC5_button.Name = "RC5_button";
             this.RC5_button.Size = new System.Drawing.Size(152, 87);
             this.RC5_button.TabIndex = 19;
             this.RC5_button.Text = "RC5";
-            this.RC5_button.UseVisualStyleBackColor = true;
+            this.RC5_button.UseVisualStyleBackColor = false;
             this.RC5_button.Click += new System.EventHandler(this.RC5_button_Click);
             // 
             // BlowFish_button
             // 
+            this.BlowFish_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.BlowFish_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.BlowFish_button.Location = new System.Drawing.Point(523, 378);
             this.BlowFish_button.Name = "BlowFish_button";
             this.BlowFish_button.Size = new System.Drawing.Size(152, 87);
             this.BlowFish_button.TabIndex = 20;
             this.BlowFish_button.Text = "BlowFish";
-            this.BlowFish_button.UseVisualStyleBackColor = true;
+            this.BlowFish_button.UseVisualStyleBackColor = false;
             this.BlowFish_button.Click += new System.EventHandler(this.BlowFish_button_Click);
             // 
             // AES_button
             // 
+            this.AES_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.AES_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.AES_button.Location = new System.Drawing.Point(909, 391);
             this.AES_button.Name = "AES_button";
             this.AES_button.Size = new System.Drawing.Size(152, 87);
             this.AES_button.TabIndex = 21;
             this.AES_button.Text = "AES";
-            this.AES_button.UseVisualStyleBackColor = true;
+            this.AES_button.UseVisualStyleBackColor = false;
             this.AES_button.Click += new System.EventHandler(this.AES_button_Click);
             // 
             // Sym_Choose_Form

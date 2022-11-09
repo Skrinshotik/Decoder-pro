@@ -45,7 +45,7 @@
             this.cifer_name.AutoSize = true;
             this.cifer_name.Font = new System.Drawing.Font("Calibri", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.cifer_name.Location = new System.Drawing.Point(394, 9);
+            this.cifer_name.Location = new System.Drawing.Point(437, 9);
             this.cifer_name.Name = "cifer_name";
             this.cifer_name.Size = new System.Drawing.Size(387, 91);
             this.cifer_name.TabIndex = 25;
@@ -82,7 +82,7 @@
             // 
             this.encrypted_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.encrypted_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.encrypted_text.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.encrypted_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.encrypted_text.Location = new System.Drawing.Point(40, 469);
             this.encrypted_text.Multiline = false;
             this.encrypted_text.Name = "encrypted_text";
@@ -94,6 +94,7 @@
             // 
             this.message_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.message_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.message_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.message_text.Location = new System.Drawing.Point(245, 324);
             this.message_text.Name = "message_text";
             this.message_text.Size = new System.Drawing.Size(317, 50);
@@ -103,6 +104,7 @@
             // 
             this.key_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.key_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.key_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.key_text.Location = new System.Drawing.Point(245, 232);
             this.key_text.Name = "key_text";
             this.key_text.Size = new System.Drawing.Size(317, 50);
@@ -153,7 +155,7 @@
             this.DecoderPro_label.Text = "DecoderPro";
             this.DecoderPro_label.Click += new System.EventHandler(this.DecoderPro_label_Click);
             // 
-            // Form2
+            // XOR_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,7 +171,7 @@
             this.Controls.Add(this.encrypted_label);
             this.Controls.Add(this.message_label);
             this.Controls.Add(this.key_label);
-            this.Name = "Form2";
+            this.Name = "XOR_Form";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
