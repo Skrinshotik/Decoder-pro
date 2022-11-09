@@ -89,6 +89,7 @@
             // 
             this.key_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.key_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.key_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.key_text.Location = new System.Drawing.Point(234, 219);
             this.key_text.Name = "key_text";
             this.key_text.Size = new System.Drawing.Size(317, 50);
@@ -98,6 +99,7 @@
             // 
             this.message_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.message_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.message_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.message_text.Location = new System.Drawing.Point(234, 311);
             this.message_text.Name = "message_text";
             this.message_text.Size = new System.Drawing.Size(317, 50);
@@ -107,7 +109,7 @@
             // 
             this.encrypted_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.encrypted_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.encrypted_text.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.encrypted_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.encrypted_text.Location = new System.Drawing.Point(29, 456);
             this.encrypted_text.Name = "encrypted_text";
             this.encrypted_text.Size = new System.Drawing.Size(522, 195);
