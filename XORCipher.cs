@@ -27,7 +27,7 @@ namespace Decoder_pro
             var res = string.Empty; // пустая строка для результата
             for (var i = 0; i < text.Length; i++)
             {
-                res += ((char)(text[i] ^ currentKey[i])).ToString();
+                res += ((char)(text[i] ^ currentKey[i])).ToString();   
             }
 
             return res;

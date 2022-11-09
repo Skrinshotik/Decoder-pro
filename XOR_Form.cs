@@ -28,7 +28,7 @@ namespace Decoder_pro
         {
             Program.main_form.Visible = true;
             this.Close(); 
-           
+
         }
 
         private void decrypt_button_Click(object sender, EventArgs e)
