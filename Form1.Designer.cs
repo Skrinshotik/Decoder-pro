@@ -84,36 +84,30 @@
             // 
             // cifer_name
             // 
-            // cifer_name
+            // sym_button
             // 
-            this.cifer_name.AutoSize = true;
-            this.cifer_name.Font = new System.Drawing.Font("Calibri", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.cifer_name.Location = new System.Drawing.Point(339, 9);
-            this.cifer_name.Name = "cifer_name";
-            this.cifer_name.Size = new System.Drawing.Size(594, 91);
-            this.cifer_name.TabIndex = 15;
-            this.cifer_name.Text = "Название шифра";
+            this.sym_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.sym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.sym_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.sym_button.Location = new System.Drawing.Point(339, 268);
+            this.sym_button.Name = "sym_button";
+            this.sym_button.Size = new System.Drawing.Size(179, 78);
+            this.sym_button.TabIndex = 16;
+            this.sym_button.Text = "Симметичные";
+            this.sym_button.UseVisualStyleBackColor = false;
+            this.sym_button.Click += new System.EventHandler(this.sym_button_Click);
             // 
-            // button1
+            // Unsym_button
             // 
-            this.button1.Location = new System.Drawing.Point(761, 219);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "виженер";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(761, 263);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "xor";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Unsym_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Unsym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Unsym_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Unsym_button.Location = new System.Drawing.Point(755, 268);
+            this.Unsym_button.Name = "Unsym_button";
+            this.Unsym_button.Size = new System.Drawing.Size(179, 78);
+            this.Unsym_button.TabIndex = 17;
+            this.Unsym_button.Text = "Асимметичные";
+            this.Unsym_button.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
