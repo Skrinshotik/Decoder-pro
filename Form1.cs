@@ -28,9 +28,27 @@ namespace Decoder_pro
 
         private void DecoderPro_label_Click(object sender, EventArgs e)
         {
+
+            XOR_Form frm = new XOR_Form();
+            frm.Show();
+            Hide();
             /*
              * рср опнохяюрэ бнгбпюр мю цкюбмсч тнплс!!!
              */
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormVigenere frm = new FormVigenere();
+            frm.Show();
+            Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            XOR_Form frm = new XOR_Form();
+            frm.Show();
+            Hide();
         }
     }
 }

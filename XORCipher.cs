@@ -12,7 +12,7 @@ namespace Decoder_pro
         private string GetRepeatKey(string s, int n)
         {
             var r = s;
-            while (r.Length < n)
+            while (r.Length < n)   // подгоняет ключ под размер текста для шифровки
             {
                 r += r;
             }
@@ -23,11 +23,11 @@ namespace Decoder_pro
         //метод шифрования/дешифровки
         private string Cipher(string text, string secretKey)
         {
-            var currentKey = GetRepeatKey(secretKey, text.Length);
-            var res = string.Empty;
+            var currentKey = GetRepeatKey(secretKey, text.Length); // генерируют ключ и записывает в переменную
+            var res = string.Empty; // пустая строка для результата
             for (var i = 0; i < text.Length; i++)
             {
-                res += ((char)(text[i] ^ currentKey[i])).ToString();
+                res += ((char)(text[i] ^ currentKey[i])).ToString();   
             }
 
             return res;
