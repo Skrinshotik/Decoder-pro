@@ -26,10 +26,9 @@ namespace Decoder_pro
 
         private void DecoderPro_label_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();    // переход к другой форме
-            frm.Show(); 
-            Hide();
-
+            Program.main_form.Visible = true;
+            this.Close(); 
+           
         }
 
         private void decrypt_button_Click(object sender, EventArgs e)

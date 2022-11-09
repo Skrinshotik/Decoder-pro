@@ -1,3 +1,5 @@
+using Simias.Encryption;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Decoder_pro
@@ -6,6 +8,7 @@ namespace Decoder_pro
     {
         public Form1()
         {
+            Program.main_form = this;
             InitializeComponent();
         }
 
@@ -21,10 +24,6 @@ namespace Decoder_pro
 
         private void DecoderPro_label_Click(object sender, EventArgs e)
         {
-
-            XOR_Form frm = new XOR_Form();
-            frm.Show();
-            Hide();
             /*
              * “”“ œ–Œœ»—¿“‹ ¬Œ«¬–¿“ Õ¿ √À¿¬Õ”ﬁ ‘Œ–Ã”!!!
              */
@@ -32,16 +31,16 @@ namespace Decoder_pro
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Visible = false;
             FormVigenere frm = new FormVigenere();
-            frm.Show();
-            Hide();
+            frm.Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Visible = false;
             XOR_Form frm = new XOR_Form();
-            frm.Show();
-            Hide();
+            frm.Visible = true;
         }
     }
 }
