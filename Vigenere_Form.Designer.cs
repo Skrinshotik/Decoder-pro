@@ -1,6 +1,6 @@
 ﻿namespace Decoder_pro
 {
-    partial class FormVigenere
+    partial class Vigenere_Form
     {
         /// <summary>
         /// Required designer variable.
