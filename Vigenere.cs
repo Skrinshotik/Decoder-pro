@@ -20,7 +20,7 @@ namespace Decoder_pro
         private string GetRepeatKey(string s, int n)
         {
             var p = s;
-            while (p.Length < n)
+            while (p.Length < n)  // подгоняет ключ под размер текста для шифровки
             {
                 p += p;
             }
@@ -36,8 +36,8 @@ namespace Decoder_pro
 
             for (int i = 0; i < text.Length; i++)
             {
-                var letterIndex = letters.IndexOf(text[i]);
-                var codeIndex = letters.IndexOf(gamma[i]);
+                var letterIndex = letters.IndexOf(text[i]); // находим букву и записываем ее индекс
+                var codeIndex = letters.IndexOf(gamma[i]);  // находим букву и записываем ее индекс из ключа
                 if (letterIndex < 0)
                 {
                     //если буква не найдена, добавляем её в исходном виде

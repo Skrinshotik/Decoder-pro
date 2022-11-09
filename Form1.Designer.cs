@@ -38,16 +38,18 @@
             this.decrypt_button = new System.Windows.Forms.Button();
             this.encrypt_button = new System.Windows.Forms.Button();
             this.cifer_name = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DecoderPro_label
             // 
             this.DecoderPro_label.AutoSize = true;
-            this.DecoderPro_label.Font = new System.Drawing.Font("Etna", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DecoderPro_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DecoderPro_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.DecoderPro_label.Location = new System.Drawing.Point(12, 4);
             this.DecoderPro_label.Name = "DecoderPro_label";
-            this.DecoderPro_label.Size = new System.Drawing.Size(207, 37);
+            this.DecoderPro_label.Size = new System.Drawing.Size(218, 42);
             this.DecoderPro_label.TabIndex = 6;
             this.DecoderPro_label.Text = "DecoderPro";
             this.DecoderPro_label.Click += new System.EventHandler(this.DecoderPro_label_Click);
@@ -151,12 +153,34 @@
             this.cifer_name.TabIndex = 15;
             this.cifer_name.Text = "Название шифра";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(761, 219);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "виженер";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(761, 263);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "xor";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cifer_name);
             this.Controls.Add(this.encrypt_button);
             this.Controls.Add(this.decrypt_button);
@@ -188,5 +212,7 @@
         private Button decrypt_button;
         private Button encrypt_button;
         private Label cifer_name;
+        private Button button1;
+        private Button button2;
     }
 }
