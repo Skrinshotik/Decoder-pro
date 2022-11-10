@@ -23,7 +23,7 @@ namespace Decoder_pro
         public string Encrypt(string plainText, string Password, byte[] IV)//Зашифровать
             {
                 byte[] Key = Encoding.UTF8.GetBytes(Password);
-
+            //
                 // Create a new AesManaged.    
                 AesManaged aes = new AesManaged();
                 aes.Key = Key;
