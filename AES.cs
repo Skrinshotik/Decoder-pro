@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.IO;
 
+
 namespace Decoder_pro
 {
     internal class AES
@@ -31,7 +32,7 @@ namespace Decoder_pro
         public string Encrypt(string plainText, string Password, byte[] IV)//Зашифровать
             {
                 byte[] Key = Encoding.UTF8.GetBytes(Password);
-
+            //
                 // Create a new AesManaged.    
                 AesManaged aes = new AesManaged();
                 aes.Key = Key;
@@ -51,6 +52,8 @@ namespace Decoder_pro
 
             public string Decrypt(string plaintext, string Password, byte[] IV)//Расшифровать
             {
+            try
+            {
                 byte[] Key = Encoding.UTF8.GetBytes(Password);
 
                 // Create a new AesManaged.    
@@ -68,6 +71,12 @@ namespace Decoder_pro
                 byte[] Decrypted = memoryStream.ToArray();
                 // Return encrypted data    
                 return UTF8Encoding.UTF8.GetString(Decrypted, 0, Decrypted.Length);
+            }
+            catch (Exception)
+            {
+
+                return "";
+            }
             }
         }
     }
