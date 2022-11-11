@@ -47,9 +47,9 @@ namespace Decoder_pro
 
         private void BlowFish_button_Click(object sender, EventArgs e)
         {
-            //BlowFish_Form cipher_form = new BlowFish_Form();
-            //cipher_form.Visible = true;
-            //this.Close();
+            BlowFish_Form cipher_form = new BlowFish_Form();
+            cipher_form.Visible = true;
+            this.Close();
         }
 
         private void AES_button_Click(object sender, EventArgs e)
