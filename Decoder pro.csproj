@@ -10,6 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="BlowFish_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Sym_Choose_Form.cs">
       <SubType>Form</SubType>
     </Compile>
