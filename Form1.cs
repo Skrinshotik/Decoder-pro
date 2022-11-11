@@ -12,20 +12,6 @@ namespace Decoder_pro
             InitializeComponent();
         }
 
-        private void DecoderPro_label_Click(object sender, EventArgs e)
-        {
-            /*
-             * рср опнохяюрэ бнгбпюр мю цкюбмсч тнплс!!!
-             */
-        }
-
-        private void DecoderPro_label_Click(object sender, EventArgs e)
-        {
-            /*
-             * рср опнохяюрэ бнгбпюр мю цкюбмсч тнплс!!!
-             */
-        }
-
         private void sym_button_Click(object sender, EventArgs e)
         {
             Visible = false;

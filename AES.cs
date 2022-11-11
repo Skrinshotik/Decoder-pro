@@ -43,6 +43,8 @@ namespace Decoder_pro
 
             public string Decrypt(string plaintext, string Password, byte[] IV)//Расшифровать
             {
+            try
+            {
                 byte[] Key = Encoding.UTF8.GetBytes(Password);
 
                 // Create a new AesManaged.    
@@ -60,6 +62,12 @@ namespace Decoder_pro
                 byte[] Decrypted = memoryStream.ToArray();
                 // Return encrypted data    
                 return UTF8Encoding.UTF8.GetString(Decrypted, 0, Decrypted.Length);
+            }
+            catch (Exception)
+            {
+
+                return "";
+            }
             }
         }
     }
