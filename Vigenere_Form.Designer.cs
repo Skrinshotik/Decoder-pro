@@ -47,7 +47,7 @@
             this.cifer_name.AutoSize = true;
             this.cifer_name.Font = new System.Drawing.Font("Calibri", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.cifer_name.Location = new System.Drawing.Point(355, 29);
+            this.cifer_name.Location = new System.Drawing.Point(339, 9);
             this.cifer_name.Name = "cifer_name";
             this.cifer_name.Size = new System.Drawing.Size(588, 91);
             this.cifer_name.TabIndex = 25;
@@ -58,7 +58,7 @@
             this.encrypt_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.encrypt_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.encrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.encrypt_button.Location = new System.Drawing.Point(607, 593);
+            this.encrypt_button.Location = new System.Drawing.Point(591, 573);
             this.encrypt_button.Name = "encrypt_button";
             this.encrypt_button.Size = new System.Drawing.Size(179, 78);
             this.encrypt_button.TabIndex = 24;
@@ -71,7 +71,7 @@
             this.decrypt_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.decrypt_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.decrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.decrypt_button.Location = new System.Drawing.Point(607, 476);
+            this.decrypt_button.Location = new System.Drawing.Point(591, 456);
             this.decrypt_button.Name = "decrypt_button";
             this.decrypt_button.Size = new System.Drawing.Size(179, 78);
             this.decrypt_button.TabIndex = 23;
@@ -84,7 +84,7 @@
             this.encrypted_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.encrypted_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.encrypted_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.encrypted_text.Location = new System.Drawing.Point(45, 476);
+            this.encrypted_text.Location = new System.Drawing.Point(29, 456);
             this.encrypted_text.Name = "encrypted_text";
             this.encrypted_text.Size = new System.Drawing.Size(522, 195);
             this.encrypted_text.TabIndex = 22;
@@ -95,7 +95,7 @@
             this.message_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.message_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.message_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.message_text.Location = new System.Drawing.Point(250, 331);
+            this.message_text.Location = new System.Drawing.Point(234, 311);
             this.message_text.Name = "message_text";
             this.message_text.Size = new System.Drawing.Size(317, 50);
             this.message_text.TabIndex = 21;
@@ -105,7 +105,7 @@
             this.key_text.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.key_text.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.key_text.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.key_text.Location = new System.Drawing.Point(250, 239);
+            this.key_text.Location = new System.Drawing.Point(234, 219);
             this.key_text.Name = "key_text";
             this.key_text.Size = new System.Drawing.Size(317, 50);
             this.key_text.TabIndex = 20;
@@ -115,7 +115,7 @@
             this.encrypted_label.AutoSize = true;
             this.encrypted_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.encrypted_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.encrypted_label.Location = new System.Drawing.Point(36, 416);
+            this.encrypted_label.Location = new System.Drawing.Point(20, 396);
             this.encrypted_label.Name = "encrypted_label";
             this.encrypted_label.Size = new System.Drawing.Size(313, 45);
             this.encrypted_label.TabIndex = 19;
@@ -126,7 +126,7 @@
             this.message_label.AutoSize = true;
             this.message_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.message_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.message_label.Location = new System.Drawing.Point(36, 331);
+            this.message_label.Location = new System.Drawing.Point(20, 311);
             this.message_label.Name = "message_label";
             this.message_label.Size = new System.Drawing.Size(208, 45);
             this.message_label.TabIndex = 18;
@@ -137,7 +137,7 @@
             this.key_label.AutoSize = true;
             this.key_label.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.key_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.key_label.Location = new System.Drawing.Point(36, 239);
+            this.key_label.Location = new System.Drawing.Point(20, 219);
             this.key_label.Name = "key_label";
             this.key_label.Size = new System.Drawing.Size(106, 45);
             this.key_label.TabIndex = 17;
@@ -148,7 +148,7 @@
             this.DecoderPro_label.AutoSize = true;
             this.DecoderPro_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DecoderPro_label.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.DecoderPro_label.Location = new System.Drawing.Point(28, 24);
+            this.DecoderPro_label.Location = new System.Drawing.Point(12, 4);
             this.DecoderPro_label.Name = "DecoderPro_label";
             this.DecoderPro_label.Size = new System.Drawing.Size(218, 42);
             this.DecoderPro_label.TabIndex = 16;
@@ -158,7 +158,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(561, 435);
+            this.radioButton1.Location = new System.Drawing.Point(591, 417);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(78, 19);
             this.radioButton1.TabIndex = 26;
@@ -169,7 +169,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(692, 435);
+            this.radioButton2.Location = new System.Drawing.Point(683, 417);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(87, 19);
             this.radioButton2.TabIndex = 27;
