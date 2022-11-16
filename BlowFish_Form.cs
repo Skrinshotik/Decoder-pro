@@ -13,19 +13,24 @@ namespace Decoder_pro
         private void decrypt_button_Click(object sender, EventArgs e)
         {
             string text = key_text.Text;
-            Blowfish blowfish = new Blowfish(text);
+            Blowfish blowFish = new Blowfish(text);
             text = message_text.Text;
-            text = blowfish.Encipher(text);
+            text = blowFish.Decipher(text);
             encrypted_text.Text = text;
         }
 
         private void encrypt_button_Click(object sender, EventArgs e)
         {
             string text = key_text.Text;
-            Blowfish blowfish = new Blowfish(text);
+            Blowfish blowFish = new Blowfish(text);
             text = message_text.Text;
-            text = blowfish.Decipher(text);
+            while(text.Length %8 !=0)
+            {
+                text += " ";   
+            }
+            text = blowFish.Encipher(text);
             encrypted_text.Text = text;
+            
         }
 
         private void DecoderPro_label_Click(object sender, EventArgs e)

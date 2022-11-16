@@ -47,7 +47,7 @@
             this.cifer_name.AutoSize = true;
             this.cifer_name.Font = new System.Drawing.Font("Calibri", 56F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.cifer_name.Location = new System.Drawing.Point(339, 9);
+            this.cifer_name.Location = new System.Drawing.Point(365, 9);
             this.cifer_name.Name = "cifer_name";
             this.cifer_name.Size = new System.Drawing.Size(588, 91);
             this.cifer_name.TabIndex = 25;

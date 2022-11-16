@@ -28,7 +28,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace Simias.Encryption
+namespace Decoder_pro
 {
     /// <summary>
     /// Class that provides blowfish encryption.
