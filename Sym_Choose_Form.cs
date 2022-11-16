@@ -33,9 +33,9 @@ namespace Decoder_pro
 
         private void DES_button_Click(object sender, EventArgs e)
         {
-            //DES_Form cipher_form = new DES_Form();
-            //cipher_form.Visible = true;
-            //this.Close();
+            DES_Form cipher_form = new DES_Form();
+            cipher_form.Visible = true;
+            this.Close();
         }
 
         private void RC5_button_Click(object sender, EventArgs e)
@@ -54,9 +54,9 @@ namespace Decoder_pro
 
         private void AES_button_Click(object sender, EventArgs e)
         {
-            //AES_Form cipher_form = new AES_Form();
-            //cipher_form.Visible = true
-            //this.Close();
+            AES_Form cipher_form = new AES_Form();
+            cipher_form.Visible = true;
+            this.Close();
         }
     }
 }
