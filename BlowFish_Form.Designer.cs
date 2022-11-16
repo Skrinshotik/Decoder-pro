@@ -149,12 +149,12 @@
             this.cifer_name.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.cifer_name.Location = new System.Drawing.Point(339, 9);
             this.cifer_name.Name = "cifer_name";
-            this.cifer_name.Size = new System.Drawing.Size(158, 91);
+            this.cifer_name.Size = new System.Drawing.Size(317, 91);
             this.cifer_name.TabIndex = 15;
-            this.cifer_name.Text = "RC5";
+            this.cifer_name.Text = "BlowFish";
             this.cifer_name.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // RC5_Form
+            // BlowFish_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -172,7 +172,7 @@
             this.Controls.Add(this.DecoderPro_label);
             this.MaximumSize = new System.Drawing.Size(1280, 720);
             this.MinimumSize = new System.Drawing.Size(1280, 720);
-            this.Name = "RC5_Form";
+            this.Name = "BlowFish_Form";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
