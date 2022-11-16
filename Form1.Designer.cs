@@ -84,16 +84,6 @@
             // 
             // Unsym_button
             // 
-            this.Unsym_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Unsym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Unsym_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Unsym_button.Location = new System.Drawing.Point(755, 268);
-            this.Unsym_button.Name = "Unsym_button";
-            this.Unsym_button.Size = new System.Drawing.Size(179, 78);
-            this.Unsym_button.TabIndex = 17;
-            this.Unsym_button.Text = "Асимметичные";
-            this.Unsym_button.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
