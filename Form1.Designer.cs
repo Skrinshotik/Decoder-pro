@@ -97,8 +97,6 @@
             this.sym_button.UseVisualStyleBackColor = false;
             this.sym_button.Click += new System.EventHandler(this.sym_button_Click);
             // 
-            // Unsym_button
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);

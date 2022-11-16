@@ -35,8 +35,9 @@ namespace Decoder_pro
 
             //зашифровать
            
-            public string main_encode(string key, string bat)
+            public string encrypt(string key, string bat)
             {
+            string enc = "Error";
                 if (key.Length > 0)
                 {
                     string s = "";
