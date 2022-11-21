@@ -36,6 +36,7 @@
             this.RC5_button = new System.Windows.Forms.Button();
             this.BlowFish_button = new System.Windows.Forms.Button();
             this.AES_button = new System.Windows.Forms.Button();
+            this.RSA_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DecoderPro_label
@@ -133,12 +134,25 @@
             this.AES_button.UseVisualStyleBackColor = false;
             this.AES_button.Click += new System.EventHandler(this.AES_button_Click);
             // 
+            // RSA_button
+            // 
+            this.RSA_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.RSA_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.RSA_button.Location = new System.Drawing.Point(121, 529);
+            this.RSA_button.Name = "RSA_button";
+            this.RSA_button.Size = new System.Drawing.Size(152, 87);
+            this.RSA_button.TabIndex = 22;
+            this.RSA_button.Text = "RSA";
+            this.RSA_button.UseVisualStyleBackColor = false;
+            this.RSA_button.Click += new System.EventHandler(this.RSA_button_Click);
+            // 
             // Sym_Choose_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.RSA_button);
             this.Controls.Add(this.AES_button);
             this.Controls.Add(this.BlowFish_button);
             this.Controls.Add(this.RC5_button);
@@ -166,5 +180,6 @@
         private Button RC5_button;
         private Button BlowFish_button;
         private Button AES_button;
+        private Button RSA_button;
     }
 }

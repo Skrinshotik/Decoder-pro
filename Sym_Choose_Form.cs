@@ -57,5 +57,12 @@ namespace Decoder_pro
             cipher_form.Visible = true;
             this.Close();
         }
+
+        private void RSA_button_Click(object sender, EventArgs e)
+        {
+            RSA_Form cipher_form = new RSA_Form();
+            cipher_form.Visible = true;
+            this.Close();
+        }
     }
 }
