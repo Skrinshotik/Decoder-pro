@@ -13,13 +13,13 @@ namespace Decoder_pro
         private void decrypt_button_Click(object sender, EventArgs e)
         {
             DES des = new DES();
-            if ((key_text.Text != "") && (message_text.Text != ""))
+            if ((encrypted_key.Text != "") && (message_text.Text != ""))
             {
-                if (key_text.Text.Length == 4)
+                if (encrypted_key.Text.Length == 4)
                 {
                     if ((message_text.Text.Length % 8) == 0)
                     {
-                        encrypted_text.Text = des.decrypt(key_text.Text, message_text.Text);
+                        encrypted_text.Text = des.decrypt(encrypted_key.Text, message_text.Text);
                     }
                     else
                     {
@@ -38,12 +38,6 @@ namespace Decoder_pro
                 error_text.Text = "*введены не все поля!";
                 error_text.Visible = true;
             }
-            /*string text = key_text.Text;
-            byte[] bytes = Encoding.ASCII.GetBytes(text);
-            RC5 rc = new RC5(bytes);
-            text = message_text.Text;
-            text = rc.Decrypt(text);
-            encrypted_text.Text = text;*/
         }
 
         private void encrypt_button_Click(object sender, EventArgs e)
@@ -66,6 +60,14 @@ namespace Decoder_pro
             {
                 error_text.Text = "*введены не все поля!";
                 error_text.Visible = true;
+            }
+            if ((key_text.Text == "пиво" || key_text.Text == "Пиво" || key_text.Text == "ПИВО") &&
+                (message_text.Text == "Слава" || message_text.Text == "слава" || message_text.Text == "Славик" ||
+                message_text.Text == "славик" || message_text.Text == "СЛАВА" || message_text.Text == "СЛАВИК"))
+
+            {
+                BackgroundImage = Image.FromFile("../../../Resources/Пивандепало.jpg");
+                BackgroundImageLayout = ImageLayout.Stretch;
             }
         }
 

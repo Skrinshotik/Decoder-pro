@@ -41,6 +41,12 @@
             this.encrypted_key = new System.Windows.Forms.TextBox();
             this.key_label2 = new System.Windows.Forms.Label();
             this.error_text = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // DecoderPro_label
@@ -128,7 +134,7 @@
             this.decrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.decrypt_button.Location = new System.Drawing.Point(591, 456);
             this.decrypt_button.Name = "decrypt_button";
-            this.decrypt_button.Size = new System.Drawing.Size(179, 78);
+            this.decrypt_button.Size = new System.Drawing.Size(433, 78);
             this.decrypt_button.TabIndex = 13;
             this.decrypt_button.Text = "Расшифровать!";
             this.decrypt_button.UseVisualStyleBackColor = false;
@@ -141,7 +147,7 @@
             this.encrypt_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.encrypt_button.Location = new System.Drawing.Point(591, 573);
             this.encrypt_button.Name = "encrypt_button";
-            this.encrypt_button.Size = new System.Drawing.Size(179, 78);
+            this.encrypt_button.Size = new System.Drawing.Size(433, 78);
             this.encrypt_button.TabIndex = 14;
             this.encrypt_button.Text = "Зашифровать!";
             this.encrypt_button.UseVisualStyleBackColor = false;
@@ -192,12 +198,72 @@
             this.error_text.Text = "*ошибка";
             this.error_text.Visible = false;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.label1);
+            this.flowLayoutPanel1.Controls.Add(this.label2);
+            this.flowLayoutPanel1.Controls.Add(this.label3);
+            this.flowLayoutPanel1.Controls.Add(this.label4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(591, 97);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(433, 344);
+            this.flowLayoutPanel1.TabIndex = 19;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(3, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(426, 78);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "1. Для работы с шифром нужно вписать ключ, размер которого 4 символа на русском -" +
+    " английском языках в поле \"Ключ\". ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(3, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(414, 78);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "2. Для шифрования может использоваться сообщение на русском-английском языках, вв" +
+    "едённое в поле \"Сообщение\". ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(3, 156);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(426, 78);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "3. При расшифровке сообщения обязательно используется зашифрованный ключ, который" +
+    " вводится в поле \"Ключ-шифр\". ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(3, 234);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(371, 104);
+            this.label4.TabIndex = 23;
+            this.label4.Text = "4. Зашифрованное и расшифрованное сообщение выводится в поле \"Шифр-сообщение\", по" +
+    "сле нажатия на кнопку с соответствующим названием.";
+            // 
             // DES_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1054, 681);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.error_text);
             this.Controls.Add(this.key_label2);
             this.Controls.Add(this.encrypted_key);
@@ -212,9 +278,11 @@
             this.Controls.Add(this.key_label);
             this.Controls.Add(this.DecoderPro_label);
             this.MaximumSize = new System.Drawing.Size(1280, 720);
-            this.MinimumSize = new System.Drawing.Size(1280, 720);
+            this.MinimumSize = new System.Drawing.Size(1070, 720);
             this.Name = "DES_Form";
             this.Text = "DES";
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,5 +303,10 @@
         private TextBox encrypted_key;
         private Label key_label2;
         private Label error_text;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
     }
 }
