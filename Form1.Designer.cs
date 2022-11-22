@@ -32,6 +32,7 @@
             this.cifer_name = new System.Windows.Forms.Label();
             this.sym_button = new System.Windows.Forms.Button();
             this.Unsym_button = new System.Windows.Forms.Button();
+            this.gallery = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DecoderPro_label
@@ -82,7 +83,18 @@
             this.Unsym_button.Text = "Асимметичные";
             this.Unsym_button.UseVisualStyleBackColor = false;
             // 
-            // decode_button
+            // gallery
+            // 
+            this.gallery.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.gallery.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.gallery.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.gallery.Location = new System.Drawing.Point(516, 626);
+            this.gallery.Name = "gallery";
+            this.gallery.Size = new System.Drawing.Size(266, 43);
+            this.gallery.TabIndex = 18;
+            this.gallery.Text = "Галерея отчисленных";
+            this.gallery.UseVisualStyleBackColor = false;
+            this.gallery.Click += new System.EventHandler(this.gallery_Click);
             // 
             // Form1
             // 
@@ -90,6 +102,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.gallery);
             this.Controls.Add(this.Unsym_button);
             this.Controls.Add(this.sym_button);
             this.Controls.Add(this.cifer_name);
@@ -109,5 +122,6 @@
         private Label cifer_name;
         private Button sym_button;
         private Button Unsym_button;
+        private Button gallery;
     }
 }

@@ -54,7 +54,15 @@ namespace Decoder_pro
             {
                 if (key_text.Text.Length == 16)
                 {
-                    encrypted_text.Text = aes.Encrypt(message_text.Text, key_text.Text, IV);
+                    if (aes.Encrypt(message_text.Text, key_text.Text, IV) != "Error")
+                    {
+                        encrypted_text.Text = aes.Encrypt(message_text.Text, key_text.Text, IV);
+                    }
+                    else
+                    {
+                        error_text.Text = "*проверьте, правильно ли введён ключ";
+                        error_text.Visible = true;
+                    }
                 }
                 else
                 {

@@ -33,10 +33,13 @@ namespace Decoder_pro
             {
                 byte[] Key = Encoding.UTF8.GetBytes(Password);
             //
-                // Create a new AesManaged.    
+            // Create a new AesManaged.
+            try
+            {
                 AesManaged aes = new AesManaged();
                 aes.Key = Key;
                 aes.IV = IV;
+
 
                 MemoryStream memoryStream = new MemoryStream();
                 CryptoStream cryptoStream = new CryptoStream(memoryStream, aes.CreateEncryptor(), CryptoStreamMode.Write);
@@ -48,6 +51,11 @@ namespace Decoder_pro
                 byte[] Encrypted = memoryStream.ToArray();
                 // Return encrypted data    
                 return Convert.ToBase64String(Encrypted);
+            }
+            catch
+            {
+                return "Error";
+            }
             }
 
             public string Decrypt(string plaintext, string Password, byte[] IV)//Расшифровать
