@@ -65,8 +65,9 @@
             // Vigenere_button
             // 
             this.Vigenere_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Vigenere_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Vigenere_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Vigenere_button.Location = new System.Drawing.Point(121, 227);
+            this.Vigenere_button.Location = new System.Drawing.Point(155, 227);
             this.Vigenere_button.Name = "Vigenere_button";
             this.Vigenere_button.Size = new System.Drawing.Size(152, 87);
             this.Vigenere_button.TabIndex = 16;
@@ -77,8 +78,9 @@
             // XOR_button
             // 
             this.XOR_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.XOR_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.XOR_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.XOR_button.Location = new System.Drawing.Point(523, 227);
+            this.XOR_button.Location = new System.Drawing.Point(557, 227);
             this.XOR_button.Name = "XOR_button";
             this.XOR_button.Size = new System.Drawing.Size(152, 87);
             this.XOR_button.TabIndex = 17;
@@ -89,8 +91,9 @@
             // DES_button
             // 
             this.DES_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.DES_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.DES_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.DES_button.Location = new System.Drawing.Point(909, 227);
+            this.DES_button.Location = new System.Drawing.Point(943, 227);
             this.DES_button.Name = "DES_button";
             this.DES_button.Size = new System.Drawing.Size(152, 87);
             this.DES_button.TabIndex = 18;
@@ -101,8 +104,9 @@
             // RC5_button
             // 
             this.RC5_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.RC5_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.RC5_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.RC5_button.Location = new System.Drawing.Point(121, 378);
+            this.RC5_button.Location = new System.Drawing.Point(155, 378);
             this.RC5_button.Name = "RC5_button";
             this.RC5_button.Size = new System.Drawing.Size(152, 87);
             this.RC5_button.TabIndex = 19;
@@ -113,8 +117,9 @@
             // BlowFish_button
             // 
             this.BlowFish_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.BlowFish_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.BlowFish_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BlowFish_button.Location = new System.Drawing.Point(523, 378);
+            this.BlowFish_button.Location = new System.Drawing.Point(557, 378);
             this.BlowFish_button.Name = "BlowFish_button";
             this.BlowFish_button.Size = new System.Drawing.Size(152, 87);
             this.BlowFish_button.TabIndex = 20;
@@ -125,8 +130,9 @@
             // AES_button
             // 
             this.AES_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.AES_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.AES_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.AES_button.Location = new System.Drawing.Point(909, 391);
+            this.AES_button.Location = new System.Drawing.Point(943, 391);
             this.AES_button.Name = "AES_button";
             this.AES_button.Size = new System.Drawing.Size(152, 87);
             this.AES_button.TabIndex = 21;
@@ -137,8 +143,9 @@
             // RSA_button
             // 
             this.RSA_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.RSA_button.Font = new System.Drawing.Font("Segoe UI Semibold", 16.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.RSA_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.RSA_button.Location = new System.Drawing.Point(121, 529);
+            this.RSA_button.Location = new System.Drawing.Point(155, 529);
             this.RSA_button.Name = "RSA_button";
             this.RSA_button.Size = new System.Drawing.Size(152, 87);
             this.RSA_button.TabIndex = 22;

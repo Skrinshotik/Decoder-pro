@@ -31,7 +31,6 @@
             this.DecoderPro_label = new System.Windows.Forms.Label();
             this.cifer_name = new System.Windows.Forms.Label();
             this.sym_button = new System.Windows.Forms.Button();
-            this.Unsym_button = new System.Windows.Forms.Button();
             this.gallery = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -61,36 +60,24 @@
             // sym_button
             // 
             this.sym_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.sym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.sym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 23.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.sym_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.sym_button.Location = new System.Drawing.Point(339, 268);
+            this.sym_button.Location = new System.Drawing.Point(285, 271);
             this.sym_button.Name = "sym_button";
-            this.sym_button.Size = new System.Drawing.Size(179, 78);
+            this.sym_button.Size = new System.Drawing.Size(317, 129);
             this.sym_button.TabIndex = 16;
-            this.sym_button.Text = "Симметичные";
+            this.sym_button.Text = "Шифры";
             this.sym_button.UseVisualStyleBackColor = false;
             this.sym_button.Click += new System.EventHandler(this.sym_button_Click);
-            // 
-            // Unsym_button
-            // 
-            this.Unsym_button.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Unsym_button.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Unsym_button.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Unsym_button.Location = new System.Drawing.Point(755, 268);
-            this.Unsym_button.Name = "Unsym_button";
-            this.Unsym_button.Size = new System.Drawing.Size(179, 78);
-            this.Unsym_button.TabIndex = 17;
-            this.Unsym_button.Text = "Асимметичные";
-            this.Unsym_button.UseVisualStyleBackColor = false;
             // 
             // gallery
             // 
             this.gallery.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.gallery.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.gallery.Font = new System.Drawing.Font("Segoe UI Semibold", 23.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.gallery.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gallery.Location = new System.Drawing.Point(516, 626);
+            this.gallery.Location = new System.Drawing.Point(690, 271);
             this.gallery.Name = "gallery";
-            this.gallery.Size = new System.Drawing.Size(266, 43);
+            this.gallery.Size = new System.Drawing.Size(317, 129);
             this.gallery.TabIndex = 18;
             this.gallery.Text = "Галерея отчисленных";
             this.gallery.UseVisualStyleBackColor = false;
@@ -103,7 +90,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.gallery);
-            this.Controls.Add(this.Unsym_button);
             this.Controls.Add(this.sym_button);
             this.Controls.Add(this.cifer_name);
             this.Controls.Add(this.DecoderPro_label);
@@ -121,7 +107,6 @@
         private Label DecoderPro_label;
         private Label cifer_name;
         private Button sym_button;
-        private Button Unsym_button;
         private Button gallery;
     }
 }
